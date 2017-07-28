@@ -10,6 +10,10 @@ import UIKit
 
 class SignUpViewController: UIViewController {
     
+    //Eplicit
+    let strBlankAlert = "Please Fill All Space"
+    
+    
     
     @IBOutlet weak var nameTextField: UITextField!
     
@@ -24,7 +28,35 @@ class SignUpViewController: UIViewController {
     
     
     @IBAction func saveButton(_ sender: Any) {
-    }
+        
+        
+        //Get Value From TextField
+        
+        let strName: String = nameTextField.text!
+        let strUser: String = userTextField.text!
+        let strPassword: String = passwordTextField.text!
+        
+        //show Log
+        print("strName ==> \(strName)")
+        print("strUser ==> \(strUser)")
+        print("strPassword ==> \(strPassword)")
+        
+        //check space
+        if (strName == "") || (strUser == "") || (strPassword == "") {
+            //Have space
+            alertLabel.text = strBlankAlert
+            
+        }   else {
+            //No space
+        
+        
+        
+        }
+        
+        
+        
+        
+    }   //SaveButton
     
     
     
