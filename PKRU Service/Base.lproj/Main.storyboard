@@ -71,10 +71,19 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="8G2-ZT-RtB"/>
                                     <barButtonItem image="ic_exit_to_app_2x.png" id="cyQ-6j-epm">
                                         <color key="tintColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="loginButton:" destination="BYZ-38-t0r" id="5Py-qc-v7o"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="oy7-SD-HAL"/>
                                 </items>
                             </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfB-st-OLn">
+                                <rect key="frame" x="16" y="485" width="343" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -83,19 +92,28 @@
                             <constraint firstItem="KGJ-oT-zpB" firstAttribute="top" secondItem="1Na-ax-apZ" secondAttribute="bottom" constant="8" id="CU2-MK-dOk"/>
                             <constraint firstAttribute="trailing" secondItem="bn1-rr-SN8" secondAttribute="trailing" id="HBm-Pw-Snh"/>
                             <constraint firstItem="tON-kp-Qxw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="S5S-Tf-1aK"/>
+                            <constraint firstItem="lfB-st-OLn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ueo-sw-trT"/>
                             <constraint firstItem="ldK-Nq-wVI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ztc-9O-xAy"/>
+                            <constraint firstItem="lfB-st-OLn" firstAttribute="top" secondItem="KGJ-oT-zpB" secondAttribute="bottom" constant="40" id="a0a-au-5Nc"/>
                             <constraint firstItem="1Na-ax-apZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aAU-Z6-XPz"/>
                             <constraint firstItem="bn1-rr-SN8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ajN-L8-bVj"/>
                             <constraint firstItem="KGJ-oT-zpB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eb1-cK-MIe"/>
                             <constraint firstAttribute="trailing" secondItem="ldK-Nq-wVI" secondAttribute="trailing" id="hF4-Wd-TR5"/>
                             <constraint firstItem="bn1-rr-SN8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hFF-XI-JvJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lfB-st-OLn" secondAttribute="trailing" id="iLF-iU-8Zd"/>
                             <constraint firstItem="1Na-ax-apZ" firstAttribute="top" secondItem="FNA-Vc-cVG" secondAttribute="bottom" constant="36" id="lCU-5u-ps5"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tON-kp-Qxw" secondAttribute="bottom" id="lks-Jt-Bcf"/>
+                            <constraint firstItem="lfB-st-OLn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lsm-Yd-3G4"/>
                             <constraint firstItem="FNA-Vc-cVG" firstAttribute="top" secondItem="bn1-rr-SN8" secondAttribute="bottom" constant="37" id="osQ-MZ-jFm"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ldK-Nq-wVI" secondAttribute="bottom" id="t1L-Jx-XQk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tON-kp-Qxw" secondAttribute="trailing" id="t2C-Cq-6JJ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="alertLabel" destination="lfB-st-OLn" id="YIN-KR-5S0"/>
+                        <outlet property="passwordTextField" destination="KGJ-oT-zpB" id="P4u-pD-TAP"/>
+                        <outlet property="userTextField" destination="1Na-ax-apZ" id="D92-p9-xva"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -198,7 +216,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rQM-47-V60" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="846" y="2"/>
+            <point key="canvasLocation" x="326" y="2"/>
         </scene>
     </scenes>
     <resources>
