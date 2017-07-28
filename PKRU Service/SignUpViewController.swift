@@ -11,7 +11,7 @@ import UIKit
 class SignUpViewController: UIViewController {
     
     //Eplicit
-    let strBlankAlert = "Please Fill All Space"
+    let strBlankAlert = "Please Fill All Every Blank"
     
     
     
