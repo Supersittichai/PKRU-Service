@@ -9,6 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //Implicit
+    var myString = ""
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

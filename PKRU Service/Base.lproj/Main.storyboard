@@ -99,6 +99,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-674" y="78"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="CPY-zj-3wm">
@@ -119,7 +120,7 @@
                                         <barButtonItem key="leftBarButtonItem" image="ic_keyboard_arrow_left_2x.png" id="Y0c-KM-mzG">
                                             <color key="tintColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="sta-lr-z2B"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" identifier="BackHome" id="sta-lr-z2B"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" image="ic_save_2x.png" id="z59-c7-hPt">
@@ -197,7 +198,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rQM-47-V60" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="706" y="36"/>
+            <point key="canvasLocation" x="846" y="2"/>
         </scene>
     </scenes>
     <resources>

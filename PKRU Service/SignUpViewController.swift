@@ -97,7 +97,8 @@ class SignUpViewController: UIViewController {
                     
                     if myResult == "True" {
                         print("Upload OK")
-                    
+                        //performSegue(withIdentifier: "BackHome", sender: self)
+                        
                     } else {
                         print("Cannot Upload To Server")
                     }
@@ -118,6 +119,17 @@ class SignUpViewController: UIViewController {
         
         
     }   //upload to server
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "BackHome" {
+            
+            if let destination = segue.destination as? ViewController {
+                destination.myString = (sender as? String)!
+            }   //if2
+            
+        }   //if1
+        
+    }   //prepare
     
     
     
