@@ -91,6 +91,9 @@ class SignUpViewController: UIViewController {
                     let dataString = NSString(data: unwrappedData, encoding: String.Encoding.utf8.rawValue)
                     let strResult = dataString as Any
                     print("strResult ==> \(strResult)")
+                    
+                    let myResult: String = strResult as! String
+                    print("myResult ==> \(myResult)")
                 
                 }   //if
             
