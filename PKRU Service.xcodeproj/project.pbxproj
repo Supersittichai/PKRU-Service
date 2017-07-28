@@ -14,6 +14,13 @@
 		9D019F541F2AE12500D21EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D019F521F2AE12500D21EDB /* LaunchScreen.storyboard */; };
 		9D019F5C1F2AE26300D21EDB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D019F5B1F2AE26300D21EDB /* logo.png */; };
 		9D019F5E1F2AE50400D21EDB /* bg_pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D019F5D1F2AE50400D21EDB /* bg_pkru.png */; };
+		9D019F621F2AF37B00D21EDB /* ic_exit_to_app_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D019F5F1F2AF37B00D21EDB /* ic_exit_to_app_2x.png */; };
+		9D019F631F2AF37B00D21EDB /* ic_exit_to_app_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D019F601F2AF37B00D21EDB /* ic_exit_to_app_3x.png */; };
+		9D019F641F2AF37B00D21EDB /* ic_exit_to_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D019F611F2AF37B00D21EDB /* ic_exit_to_app.png */; };
+		9D019F681F2AF47F00D21EDB /* ic_group_add_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D019F651F2AF47F00D21EDB /* ic_group_add_2x.png */; };
+		9D019F691F2AF47F00D21EDB /* ic_group_add_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D019F661F2AF47F00D21EDB /* ic_group_add_3x.png */; };
+		9D019F6A1F2AF47F00D21EDB /* ic_group_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D019F671F2AF47F00D21EDB /* ic_group_add.png */; };
+		9D019F6C1F2AF57800D21EDB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D019F6B1F2AF57800D21EDB /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		9D019F551F2AE12500D21EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D019F5B1F2AE26300D21EDB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../logo.png; sourceTree = "<group>"; };
 		9D019F5D1F2AE50400D21EDB /* bg_pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_pkru.png; path = ../../../bg_pkru.png; sourceTree = "<group>"; };
+		9D019F5F1F2AF37B00D21EDB /* ic_exit_to_app_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_exit_to_app_2x.png; path = ../../../ic_exit_to_app.imageset/ic_exit_to_app_2x.png; sourceTree = "<group>"; };
+		9D019F601F2AF37B00D21EDB /* ic_exit_to_app_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_exit_to_app_3x.png; path = ../../../ic_exit_to_app.imageset/ic_exit_to_app_3x.png; sourceTree = "<group>"; };
+		9D019F611F2AF37B00D21EDB /* ic_exit_to_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_exit_to_app.png; path = ../../../ic_exit_to_app.imageset/ic_exit_to_app.png; sourceTree = "<group>"; };
+		9D019F651F2AF47F00D21EDB /* ic_group_add_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add_2x.png; path = ../../../ic_group_add.imageset/ic_group_add_2x.png; sourceTree = "<group>"; };
+		9D019F661F2AF47F00D21EDB /* ic_group_add_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add_3x.png; path = ../../../ic_group_add.imageset/ic_group_add_3x.png; sourceTree = "<group>"; };
+		9D019F671F2AF47F00D21EDB /* ic_group_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add.png; path = ../../../ic_group_add.imageset/ic_group_add.png; sourceTree = "<group>"; };
+		9D019F6B1F2AF57800D21EDB /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +75,18 @@
 				9D019F491F2AE12500D21EDB /* AppDelegate.swift */,
 				9D019F4B1F2AE12500D21EDB /* ViewController.swift */,
 				9D019F4D1F2AE12500D21EDB /* Main.storyboard */,
+				9D019F6B1F2AF57800D21EDB /* SignUpViewController.swift */,
 				9D019F501F2AE12500D21EDB /* Assets.xcassets */,
 				9D019F521F2AE12500D21EDB /* LaunchScreen.storyboard */,
 				9D019F551F2AE12500D21EDB /* Info.plist */,
 				9D019F5B1F2AE26300D21EDB /* logo.png */,
 				9D019F5D1F2AE50400D21EDB /* bg_pkru.png */,
+				9D019F5F1F2AF37B00D21EDB /* ic_exit_to_app_2x.png */,
+				9D019F601F2AF37B00D21EDB /* ic_exit_to_app_3x.png */,
+				9D019F611F2AF37B00D21EDB /* ic_exit_to_app.png */,
+				9D019F651F2AF47F00D21EDB /* ic_group_add_2x.png */,
+				9D019F661F2AF47F00D21EDB /* ic_group_add_3x.png */,
+				9D019F671F2AF47F00D21EDB /* ic_group_add.png */,
 			);
 			path = "PKRU Service";
 			sourceTree = "<group>";
@@ -131,9 +152,15 @@
 			files = (
 				9D019F5E1F2AE50400D21EDB /* bg_pkru.png in Resources */,
 				9D019F5C1F2AE26300D21EDB /* logo.png in Resources */,
+				9D019F691F2AF47F00D21EDB /* ic_group_add_3x.png in Resources */,
+				9D019F631F2AF37B00D21EDB /* ic_exit_to_app_3x.png in Resources */,
+				9D019F6A1F2AF47F00D21EDB /* ic_group_add.png in Resources */,
+				9D019F621F2AF37B00D21EDB /* ic_exit_to_app_2x.png in Resources */,
+				9D019F641F2AF37B00D21EDB /* ic_exit_to_app.png in Resources */,
 				9D019F541F2AE12500D21EDB /* LaunchScreen.storyboard in Resources */,
 				9D019F511F2AE12500D21EDB /* Assets.xcassets in Resources */,
 				9D019F4F1F2AE12500D21EDB /* Main.storyboard in Resources */,
+				9D019F681F2AF47F00D21EDB /* ic_group_add_2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D019F6C1F2AF57800D21EDB /* SignUpViewController.swift in Sources */,
 				9D019F4C1F2AE12500D21EDB /* ViewController.swift in Sources */,
 				9D019F4A1F2AE12500D21EDB /* AppDelegate.swift in Sources */,
 			);
