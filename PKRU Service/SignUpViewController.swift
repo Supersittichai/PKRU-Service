@@ -12,6 +12,8 @@ class SignUpViewController: UIViewController {
     
     //Eplicit
     let strBlankAlert = "Please Fill All Every Blank"
+    let strFontPHP = "http://androidthai.in.th/pkru/addDataPeem.php?isAdd=true&Name="
+    
     
     
     
@@ -48,8 +50,7 @@ class SignUpViewController: UIViewController {
             
         }   else {
             //No space
-        
-        
+            uploadToServer(strName: strName, strUser: strUser, strPassword: strPassword)
         
         }
         
@@ -66,7 +67,19 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
+    }   //viewdidload
+    
+    func uploadToServer(strName: String, strUser: String, strPassword: String) -> Void {
+        
+        let strPHP: String = strFontPHP + "\(strName)&User=\(strUser)&Password=\(strPassword)"
+        print("strPHP ==> \(strPHP)")
+        
+        
+        
+    }   //upload to server
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
