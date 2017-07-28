@@ -118,15 +118,55 @@
                                                 <segue destination="BYZ-38-t0r" kind="show" id="sta-lr-z2B"/>
                                             </connections>
                                         </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" image="ic_save_2x.png" id="z59-c7-hPt"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dEd-5p-dfP">
+                                <rect key="frame" x="67.5" y="125" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="8HQ-FU-29r"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Pa-dK-hvh">
+                                <rect key="frame" x="67.5" y="176" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="qeu-Zu-VCb"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U4n-mq-ZyA">
+                                <rect key="frame" x="67.5" y="227" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="vhJ-4R-xAo"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_pkru.png" translatesAutoresizingMaskIntoConstraints="NO" id="eoP-ln-ZgB">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Ip4-af-ysi" secondAttribute="trailing" id="3KU-73-nbQ"/>
                             <constraint firstItem="Ip4-af-ysi" firstAttribute="top" secondItem="fkS-31-vrh" secondAttribute="bottom" id="3iA-5t-Nr8"/>
+                            <constraint firstItem="eoP-ln-ZgB" firstAttribute="leading" secondItem="9FL-kT-5rh" secondAttribute="leadingMargin" id="7Yr-99-IsR"/>
+                            <constraint firstItem="dEd-5p-dfP" firstAttribute="centerX" secondItem="9FL-kT-5rh" secondAttribute="centerX" id="9hl-8b-fPU"/>
                             <constraint firstItem="Ip4-af-ysi" firstAttribute="leading" secondItem="9FL-kT-5rh" secondAttribute="leading" id="AdW-PI-izY"/>
+                            <constraint firstItem="1Pa-dK-hvh" firstAttribute="centerX" secondItem="9FL-kT-5rh" secondAttribute="centerX" id="HlR-az-nJa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eoP-ln-ZgB" secondAttribute="trailing" id="J5A-Ov-37i"/>
+                            <constraint firstItem="eoP-ln-ZgB" firstAttribute="top" secondItem="fkS-31-vrh" secondAttribute="bottom" id="Qs8-W3-ur0"/>
+                            <constraint firstItem="1Pa-dK-hvh" firstAttribute="top" secondItem="dEd-5p-dfP" secondAttribute="bottom" constant="21" id="S26-K0-hGk"/>
+                            <constraint firstItem="U4n-mq-ZyA" firstAttribute="centerX" secondItem="9FL-kT-5rh" secondAttribute="centerX" id="VAg-X5-fGB"/>
+                            <constraint firstItem="ufi-iG-S3Q" firstAttribute="top" secondItem="eoP-ln-ZgB" secondAttribute="bottom" id="XXw-Mf-SaI"/>
+                            <constraint firstItem="dEd-5p-dfP" firstAttribute="top" secondItem="Ip4-af-ysi" secondAttribute="bottom" constant="61" id="ZWp-UA-WLo"/>
+                            <constraint firstItem="U4n-mq-ZyA" firstAttribute="top" secondItem="1Pa-dK-hvh" secondAttribute="bottom" constant="21" id="k3P-hl-vRM"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -140,6 +180,7 @@
         <image name="ic_exit_to_app_2x.png" width="48" height="48"/>
         <image name="ic_group_add_2x.png" width="48" height="48"/>
         <image name="ic_keyboard_arrow_left_2x.png" width="48" height="48"/>
+        <image name="ic_save_2x.png" width="48" height="48"/>
         <image name="logo.png" width="1482" height="1752"/>
     </resources>
 </document>
