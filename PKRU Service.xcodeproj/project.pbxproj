@@ -12,6 +12,8 @@
 		9D019F4F1F2AE12500D21EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D019F4D1F2AE12500D21EDB /* Main.storyboard */; };
 		9D019F511F2AE12500D21EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D019F501F2AE12500D21EDB /* Assets.xcassets */; };
 		9D019F541F2AE12500D21EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D019F521F2AE12500D21EDB /* LaunchScreen.storyboard */; };
+		9D019F5C1F2AE26300D21EDB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D019F5B1F2AE26300D21EDB /* logo.png */; };
+		9D019F5E1F2AE50400D21EDB /* bg_pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D019F5D1F2AE50400D21EDB /* bg_pkru.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9D019F501F2AE12500D21EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D019F531F2AE12500D21EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D019F551F2AE12500D21EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D019F5B1F2AE26300D21EDB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../logo.png; sourceTree = "<group>"; };
+		9D019F5D1F2AE50400D21EDB /* bg_pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_pkru.png; path = ../../../bg_pkru.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9D019F501F2AE12500D21EDB /* Assets.xcassets */,
 				9D019F521F2AE12500D21EDB /* LaunchScreen.storyboard */,
 				9D019F551F2AE12500D21EDB /* Info.plist */,
+				9D019F5B1F2AE26300D21EDB /* logo.png */,
+				9D019F5D1F2AE50400D21EDB /* bg_pkru.png */,
 			);
 			path = "PKRU Service";
 			sourceTree = "<group>";
@@ -123,6 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D019F5E1F2AE50400D21EDB /* bg_pkru.png in Resources */,
+				9D019F5C1F2AE26300D21EDB /* logo.png in Resources */,
 				9D019F541F2AE12500D21EDB /* LaunchScreen.storyboard in Resources */,
 				9D019F511F2AE12500D21EDB /* Assets.xcassets in Resources */,
 				9D019F4F1F2AE12500D21EDB /* Main.storyboard in Resources */,
